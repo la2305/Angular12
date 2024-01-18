@@ -1,1 +1,6 @@
 <p>home works!</p>
+<div [ngSwitch]="accountUser">
+  <h4 *ngSwitchCase="'kiandla'">Tài khoản này không tồn tại</h4>
+  <h4 *ngSwitchCase="'Ladeptraii'">Tài khoản này đúng rồi đó, oke con chó nha</h4>
+  <h4 *ngSwitchDefault="">Địt mẹ mày đăng nhập làm lòn gì</h4>
+</div>
