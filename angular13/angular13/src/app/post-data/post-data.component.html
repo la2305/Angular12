@@ -1,0 +1,15 @@
+<p>post-data works!</p>
+<br>
+<a routerLink="" routerLinkActive="active">Home</a>
+<form>
+    <div>
+        <label for="name">name</label>
+        <input  type="text" id="name" [(ngModel)]="payload.name" [ngModelOptions]="{ standalone: true }">
+    </div>
+    <div>
+        <label for="age">age</label>
+        <input type="text" id="age" [(ngModel)]="payload.age" [ngModelOptions]="{ standalone: true }">
+    </div>
+    <button (click)="onSubmit()">submit</button>
+</form>
+

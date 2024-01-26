@@ -1,0 +1,11 @@
+<form [formGroup]="studentForm" (ngSubmit)="createStudent()">
+  <div>
+    <input formControlName="name" placeholder="Name" />
+    <p *ngIf="errors.name && studentForm.get('name')?.touched">Please enter a valid name.</p>
+    
+    <input formControlName="age" placeholder="Age" />
+    <p *ngIf="errors.age && studentForm.get('age')?.touched">Please enter an age.</p>
+    
+    <button type="submit">Submit</button>
+  </div>
+</form>

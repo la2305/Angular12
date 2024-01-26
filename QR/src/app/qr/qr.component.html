@@ -1,0 +1,14 @@
+<p>qr works!</p>
+<label>Qr code: </label>
+<input type="text" (change)="changeQr($event)">
+<br>
+<label>Name: </label>
+<input type="text" (change)="changeName($event)">
+<br>
+<label>Age: </label>
+<input type="text" (change)="changeAge($event)">
+<br>
+<span>{{cuoibap}}</span>
+<br>
+<qr-code [value]="qrInfo" [size]="width"></qr-code>
+

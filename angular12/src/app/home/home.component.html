@@ -1,6 +1,21 @@
-<p>home works!</p>
-<div [ngSwitch]="accountUser">
+<p appHighlight>home works!</p>
+<p [appHighlight]="'orange'">home works!</p>
+<p [appHighlight]="myColor">home works!</p>
+<a routerLink="**" routerLinkActive="active">page-not-found</a>
+<br>
+<a routerLink="templateform" routerLinkActive="active">templateform</a>
+<br>
+<a routerLink="reactiveform" routerLinkActive="active">reactiveform</a>
+<br>
+<a routerLink="/getdata" routerLinkActive="active">getdata</a>
+<br>
+<a routerLink="/postdata" routerLinkActive="active">postdata</a>
+
+<!-- <div [ngSwitch]="accountUser">
   <h4 *ngSwitchCase="'kiandla'">Tài khoản này không tồn tại</h4>
   <h4 *ngSwitchCase="'Ladeptraii'">Tài khoản này đúng rồi đó, oke con chó nha</h4>
   <h4 *ngSwitchDefault="">Địt mẹ mày đăng nhập làm lòn gì</h4>
 </div>
+<span>counter : {{counter}}</span>
+<br>
+<span>counter bình phương : {{counterBinhPhuong}}</span> -->

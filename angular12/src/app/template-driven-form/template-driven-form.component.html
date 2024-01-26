@@ -1,0 +1,7 @@
+<p>template-driven-form works!</p>
+<form (ngSubmit)="submitForm()">
+    <label for="name">Name</label>
+    <input id="name" type="text" [(ngModel)]="name" [ngModelOptions]="{ standalone: true }">
+    <!-- <button (click)="submitForm()">submit</button> -->
+    <button>submit</button>
+</form>

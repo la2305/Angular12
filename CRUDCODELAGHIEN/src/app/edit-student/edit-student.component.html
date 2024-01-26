@@ -1,0 +1,15 @@
+<form [formGroup]="studentForm" (ngSubmit)="submit()">
+    <label for="name">name</label>
+    <input type="text" id="name" formControlName="name" required>
+    <br>
+    <div *ngIf="studentForm.controls['name'].invalid && studentForm.controls['name'].touched">
+        please enter the name.
+    </div>
+    <label for="age">age</label>
+    <input type="text" id="age" formControlName="age" required>
+    <div *ngIf="studentForm.controls['age'].invalid && studentForm.controls['age'].touched">
+        please enter the age
+    </div>
+    <br>
+    <button type="submit" [disabled]="studentForm.invalid">submit</button>
+</form>

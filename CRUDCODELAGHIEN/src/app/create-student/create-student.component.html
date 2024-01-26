@@ -1,0 +1,10 @@
+<p>create-student works!</p>
+<form [formGroup]="studentForm" (ngSubmit)="createStudent()">
+  <input type="text" formControlName="name" placeholder="name">
+  <div *ngIf="formSubmitted && studentForm.get('name')?.invalid && studentForm.get('name')?.touched" class="error-message">Vui lòng nhập tên</div>
+
+  <input type="text" formControlName="age" placeholder="age">
+  <div *ngIf="formSubmitted && studentForm.get('age')?.invalid && studentForm.get('age')?.touched" class="error-message">Vui lòng nhập tuổi</div>
+
+  <button type="submit">submit</button>
+</form>

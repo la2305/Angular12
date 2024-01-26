@@ -1,0 +1,12 @@
+<p>cha works! {{chaMessage}}</p>
+<br>
+<br>
+<!-- <app-con name="tí" (congoi)="conGoi($event)"></app-con>
+<br>
+<app-con name="tèo" (congoi)="conGoi($event)"></app-con> -->
+<button (click)="choConTien()">cho tiền</button>
+<br>
+<app-con #thangteo name="tèo" (congoi)="conGoi($event)"></app-con>
+<br>
+<app-con #thangti name="tí" (congoi)="conGoi($event)"></app-con>
+

@@ -1,0 +1,202 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "Lê Quang Phước",
+      "age": 18,
+      "content": {
+        "result": "học sinh trung bình",
+        "attitude": "tốt"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Lê Quang Phước2",
+      "age": 20,
+      "content": {
+        "result": "học sinh trung ngu",
+        "attitude": "yếu"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Lê Quang Phước3",
+      "age": 22,
+      "content": {
+        "result": "học sinh giỏi",
+        "attitude": "tốt"
+      }
+    }
+  ],
+  "teacher": [
+    {
+      "id": 1,
+      "name": "Lê Thanh Xuân",
+      "age": 18
+    },
+    {
+      "id": 2,
+      "name": "Lê Thanh Xuân2",
+      "age": 20
+    },
+    {
+      "id": 3,
+      "name": "Lê Thanh Xuân3",
+      "age": 22
+    },
+    {
+      "name": "Lê la",
+      "age": 18,
+      "id": 4
+    },
+    {
+      "name": "Lê la",
+      "age": 18,
+      "id": 5
+    },
+    {
+      "name": "Lê la",
+      "age": 18,
+      "id": 6
+    },
+    {
+      "name": "Lê la",
+      "age": 18,
+      "id": 7
+    },
+    {
+      "name": "Lê la",
+      "age": 18,
+      "id": 8
+    },
+    {
+      "name": "Lê la",
+      "age": 18,
+      "id": 9
+    },
+    {
+      "name": "Lê la",
+      "age": 18,
+      "id": 10
+    },
+    {
+      "name": "Lê la",
+      "age": 18,
+      "id": 11
+    },
+    {
+      "name": "",
+      "age": 18,
+      "id": 12
+    },
+    {
+      "name": "",
+      "age": 0,
+      "id": 13
+    },
+    {
+      "name": "",
+      "age": 0,
+      "id": 14
+    },
+    {
+      "name": "",
+      "age": 0,
+      "id": 15
+    },
+    {
+      "name": "",
+      "age": 0,
+      "id": 16
+    },
+    {
+      "name": "123",
+      "age": 0,
+      "id": 17
+    },
+    {
+      "name": "123",
+      "age": 0,
+      "id": 18
+    },
+    {
+      "name": "123",
+      "age": 0,
+      "id": 19
+    },
+    {
+      "name": "123",
+      "age": 0,
+      "id": 20
+    },
+    {
+      "name": "123",
+      "age": "0213123",
+      "id": 21
+    },
+    {
+      "name": "123",
+      "age": "0213123",
+      "id": 22
+    },
+    {
+      "name": "la",
+      "age": "123",
+      "id": 23
+    },
+    {
+      "name": "la",
+      "age": "0123",
+      "id": 24
+    },
+    {
+      "name": "la",
+      "age": "0123",
+      "id": 25
+    },
+    {
+      "name": "la",
+      "age": "0123",
+      "id": 26
+    },
+    {
+      "name": "la",
+      "age": 0,
+      "id": 27
+    },
+    {
+      "name": "la",
+      "age": 0,
+      "id": 28
+    },
+    {
+      "name": "123",
+      "age": 0,
+      "id": 29
+    },
+    {
+      "name": "123",
+      "age": 0,
+      "id": 30
+    },
+    {
+      "name": "la đẹp trai",
+      "age": "15 ",
+      "id": 31
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "content": "hôm nay trơi đẹp quá"
+    },
+    {
+      "id": 2,
+      "content": "anh muốn được thơm má"
+    },
+    {
+      "id": 3,
+      "content": "cho anh hôn 1 cái"
+    }
+  ]
+}
