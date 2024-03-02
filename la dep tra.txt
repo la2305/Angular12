@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 fsadfsdf
 
 
 
 la ngu
-=======
-fsadfsdffsadfsdafsdafsdf
->>>>>>> 540043e2858f7e0eb4c7805525865730ed357cbc
+
